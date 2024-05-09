@@ -7,6 +7,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     text-align: center;
+    margin-top: 5px;
 
 
 }
@@ -53,7 +54,7 @@ a{
 }
 .botones{
     max-width: 500px;
-    background: rgba(255, 0, 0, 0.432);
+    background-color: rgba(0, 0, 0, 0.432);
     text-align: center;
     font-family: sans-serif;
     width: auto;
@@ -66,7 +67,7 @@ a{
     
 }
 .presentacion{
-    background-color: rgba(255, 0, 0, 0.432);
+    background-color: rgba(0, 0, 0, 0.432);
     text-align: center;
     border-style: hidden;
     border-radius: 5px;
@@ -78,7 +79,7 @@ h2{
     margin: 10px;
 }
 .nosotros{
-    background-color: rgba(255, 0, 0, 0.432);
+    background-color: rgba(0, 0, 0, 0.432);
     text-align: center;
     margin: auto;
     border-style: hidden;
@@ -89,7 +90,7 @@ h2{
     box-shadow: 20px 20px 20px #0007 ;
 }
 .texto_formulario{
-    background-color: rgba(255, 0, 0, 0.432);
+    background-color: rgba(0, 0, 0, 0.432);
     text-align: left;
     font-family: sans-serif;
     margin: auto;
@@ -99,7 +100,7 @@ h2{
 
 }
 .titulo_galeria{
-    background-color: rgba(255, 0, 0, 0.432);
+    background-color: rgba(0, 0, 0, 0.432);
     text-align: center;
     font-size: 20px;
     margin: auto;
@@ -111,36 +112,25 @@ h2{
 
 }
 .Secciones_galeria{
-    background-color: rgba(255, 0, 0, 0.432);
+    background-color: rgba(0, 0, 0, 0.432);
     text-align: left;
     font-size: 20px;
     margin: auto;
+    margin-bottom: 20px;
     border-radius: 5px;
     font-family: sans-serif;
     margin-top: 10px;
     box-shadow: 20px 20px 20px #0007 ;
 }
-.Flex_imagenes{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-content: baseline;
-    flex-shrink: 1;
-
-}
 .imagenes{
     border-radius: 5px;
-    border-style: outset;
-    border-color: black;
-    border-top: none ;
-    border-left: none;
     height: auto;
     max-width: 100%;
-    margin: 10px;
-    margin-left: 0;
+    justify-content: center;
+
 }
 .copyright{
-    background-color: rgba(255, 0, 0, 0.432);
+    background-color: rgba(0, 0, 0, 0.432);
     text-align: center;
     margin: auto;
     border-style: none;
@@ -149,7 +139,7 @@ h2{
     box-shadow: 20px 20px 20px #0007 ;
 }
 .descubre_mas{
-    background-color: rgba(255, 0, 0, 0.432);
+    background-color: rgba(0, 0, 0, 0.432);
     text-align: center;
     margin: auto;
     border-style: hidden;
@@ -167,4 +157,36 @@ iframe{
 max-width: 100%;  
 margin: 10px;
 }
-
+.navbar{
+    background-color: black;
+}
+.nav-link{
+    padding: 0 !important;
+    width: 110px !important;
+}
+.container-fluid{
+    padding: 0 !important;
+    justify-content: flex-start;
+}
+.Logo{
+    width: 150px;
+    height: auto;
+}
+.navbar-brand{
+    text-align: start !important;
+    margin: 10px;
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+.slider{
+    margin-top: 20px;
+}
+footer a{
+    background-color: black;
+    color: green;
+    font-size: 30px;
+    text-align: end;
+    border-radius: 15%;
+}
