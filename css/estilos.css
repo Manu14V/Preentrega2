@@ -9,7 +9,7 @@ body {
   color: white;
 }
 
-h1 {
+.titulo {
   background-color: black;
   font-family: "Blacksword", sans-serif;
   color: blue;
