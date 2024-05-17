@@ -15,7 +15,7 @@ $font3: 'Blacksword', sans-serif;
 
 
 body{
-    background-color: $color1;
+    background-color: #505050;
     font-family: $font2;
     color: $color4;
 }
@@ -49,36 +49,37 @@ a{
     font-family: $font1;
     font-size: 20px;
     background: $color4;
-    color: $color2 ;
-    border-width: 5px;
-    border-color: $color2 ;
-    border-style: outset;
-    border-radius: 5px;
-    border-top: none;
-    border-left: none;
+    color: $color4 ;
     margin-top: 30px;
-    box-shadow: 20px 20px 20px $color1 ;
+    box-shadow: 20px 20px 20px $color2 ;
+    background-image: linear-gradient(to bottom, #000000, #191919, #2a2a2a, #3c3c3c, #505050);
 }
 .enviar{
     letter-spacing: 2px;
-    text-transform: uppercase;
-    font-family: $font1;
-    background: $color4;
-    color: $color2;
+    font-family: $font2;
+    color: $color4;
     width: 50%;
     margin-top: 30px;
-    box-shadow: 20px 20px 20px $color1 ;
+    background-image: linear-gradient(to bottom, #000000, #191919, #2a2a2a, #3c3c3c, #505050);
 }
 .presentacion{
-    background-color: $color1;
     text-align: center;
     margin: auto;
     border-style: hidden;
-    border-radius: 5px;
     margin-top: 0;
     font-family: $font1;
     font-size: 20px;
-    box-shadow: 20px 20px 20px $color1 ;
+}
+.fondo{
+    height: 100%;
+    background-color: $color2 ;
+    background-image: linear-gradient(to bottom, #000000, #191919, #2a2a2a, #3c3c3c, #505050);
+}
+.fondo-navbar{
+    background-size: cover;
+    background-position: center;
+    background-position-y: 60% ;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)), url(../Imagenes/img4.jpg) !important;
 }
 h2{
     font-size: 30px;
@@ -89,13 +90,10 @@ h2{
 @extend .presentacion;
 }
 .texto_formulario{
-    background-color: $color1;
-    text-align: left;
-    font-family: $font2;
-    margin: auto;
-    border-style: hidden;
-    margin-top: 30px;
-    box-shadow: 20px 20px 20px $color1 ;
+@extend .presentacion;
+text-align: start;
+font-size: x-large;
+color: $color4;
 }
 .titulo_galeria{
 @extend .presentacion;
@@ -118,6 +116,10 @@ h2{
     justify-content: center;
 
 }
+.div-descubremas{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .copyright{
     background-color: $color1;
     text-align: center;
@@ -133,11 +135,9 @@ h2{
     background-color: $color1;
     text-align: center;
     font-size: 40px;
-    margin: auto;
-    margin-bottom: 20px;
+    margin-top: 0 ;
     border-radius: 5px;
     font-family: $font2;
-    margin-top: 10px;
     box-shadow: 20px 20px 20px $color1 ;
 
 }
@@ -176,7 +176,7 @@ max-width: 100%;
             .nav-link{
                 padding: 0 !important;
                 width: 110px !important;
-                color: rgb(0, 0, 255) ;
+                color: rgb(253, 253, 255) ;
             }
         }
     }
