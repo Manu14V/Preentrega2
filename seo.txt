@@ -1,0 +1,10 @@
+1- Puse alt a todas las imágenes
+2- Agregue etiquetas meta
+3- Agregue meta keywords
+4- Puse titulo de pagina
+5- Optimize imágenes
+6- Puse enlaces internos y externos
+7- El contenido es original y no copiado de otra pagina
+8- Use encabezados siguiendo el orden (h1, h2, h3)
+9- Es responsive tanto para celulares como para otros dispositivos
+10- Verifique que el código no tenga errores que puedan hacer funcionar mal el sitio web
