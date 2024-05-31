@@ -32,29 +32,22 @@ a {
 }
 
 .formulario {
-  background: rgba(0, 38, 255, 0);
-  padding: 30px;
-  border-radius: 5px;
+  width: 100%;
+  background-color: rgba(0, 38, 255, 0);
+  padding: 10px;
 }
 
 .formulario_tipo {
-  padding: 6px 10px;
-  width: auto;
-  font-family: "Lato", sans-serif;
+  width: 100%;
   font-size: 20px;
-  background: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid black;
   color: white;
-  margin-top: 30px;
-  box-shadow: 20px 20px 20px black;
-  background-image: linear-gradient(to bottom, #000000, #191919, #2a2a2a, #3c3c3c, #505050);
 }
 
 .enviar {
-  letter-spacing: 2px;
-  font-family: sans-serif;
   color: white;
-  width: 50%;
-  margin-top: 30px;
   background-image: linear-gradient(to bottom, #000000, #191919, #2a2a2a, #3c3c3c, #505050);
 }
 

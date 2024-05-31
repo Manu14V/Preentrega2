@@ -39,27 +39,20 @@ a{
     color: green;
 }
 .formulario{
-    background: $color3;
-    padding: 30px;
-    border-radius: 5px;
+    width: 100%;
+    background-color: $color3;
+    padding: 10px;
 }
 .formulario_tipo{
-    padding:6px 10px;
-    width: auto;
-    font-family: $font1;
+    width: 100%;
     font-size: 20px;
-    background: $color4;
-    color: $color4 ;
-    margin-top: 30px;
-    box-shadow: 20px 20px 20px $color2 ;
-    background-image: linear-gradient(to bottom, #000000, #191919, #2a2a2a, #3c3c3c, #505050);
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid $color2 ;
+    color: $color4;
 }
 .enviar{
-    letter-spacing: 2px;
-    font-family: $font2;
-    color: $color4;
-    width: 50%;
-    margin-top: 30px;
+    color: $color4 ;
     background-image: linear-gradient(to bottom, #000000, #191919, #2a2a2a, #3c3c3c, #505050);
 }
 .presentacion{

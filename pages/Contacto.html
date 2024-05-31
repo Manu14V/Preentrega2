@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name= "keywords" content="Auto, fotos, imagen, automovilismo">
+    <meta name="keywords" content="Contacto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -48,12 +48,15 @@
     </nav>
     <!-- navbar fin -->
     <div class="fondo">
-        <form class="formulario">
-            <h2 class="texto_formulario">Queres nuestras fotos?</h2>
-            <h2 class="texto_formulario">Dejanos tu email y te lo enviamos!</h2>
+        <h2 class="texto_formulario">Queres nuestras fotos?</h2>
+        <h3 class="texto_formulario">Dejanos tus datos y te lo enviamos!</h3>
+        <form method="post" name="miformulario" netlify class="formulario"></form>
             <input title="Nombre" class="formulario_tipo" type="text" name="Nombre" placeholder="Nombre">
+            <input title="Apellido" class="formulario_tipo" type="text" name="apellido" placeholder="apellido">
             <input title="Email" class="formulario_tipo" type="email" name="email" placeholder="Email" required>
-            <input title="Enviar" class="formulario_tipo enviar" type="submit">
+            <textarea title="Comentarios" class="formulario_tipo" name="Comentarios" id="comentarios" cols="30"
+            rows="7" placeholder="Comentarios"></textarea>
+            <input title="Enviar" class="enviar" type="submit">
         </form>
         <footer>
             <p class="copyright">Derechos de autor &copy; 2024 AutoLens . Todos los derechos reservados.
